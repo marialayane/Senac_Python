@@ -114,4 +114,39 @@ print('Lista maiuscula: {}'.format(lista_maiuscula))
 print('Lista minuscula: {}'.format(lista_minuscula))
 """
 
-#6
+# 6
+"""
+print('-' * 117)
+print('-' * 45, 'Removendo itens numa lista', '-' * 44)
+print('-' * 117)
+
+lista = ['Camomila', 'Erva doce', 'Erva cidreira', 'Hibisco', 'Verde', 'Hortelã', 'Alecrim', 'Boldo', 'Lavanda']
+
+print('Lista atual: {}'.format(lista))
+remover = int(input('qual item você quer remover? \nInforme a posição do item na lista: '))
+lista.pop(remover)
+print('\n')
+print('Item removido com sucesso! :)')
+print('Lista atualizada: {}'.format(lista))
+
+print('\n')
+print('Obrigada pela interação!! :)')
+print('Até mais')
+"""
+
+#7
+"""
+print('-' * 110)
+print('-' * 38, 'Realizando uma adição numa tupla', '-' * 38)
+print('-' * 110)
+
+tupla = (1958, 1962, 1970, 1994)
+print('Anos que o Brasil ganhou a Campeonato Mundial de Futebol Masculino: {}'.format(tupla))
+
+lista = list(tupla)
+lista.append(2002)
+tupla_atualizada = tuple(lista)
+print('\n')
+print('Atualizando...')
+print('Anos que o Brasil ganhou a Campeonato Mundial de Futebol Masculino atualizada*: {}'.format(tupla_atualizada))
+"""
